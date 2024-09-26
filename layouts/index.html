@@ -82,8 +82,20 @@
         {{ end }} {{ if .Site.Data.homepage.social.whatsapp }}
         <li><a href="https://wa.me/{{ .Site.Data.homepage.social.whatsapp}}"> <img
                     class="contain" src="https://cdn.svgporn.com/logos/whatsapp.svg" alt="Whatsapp" loading="lazy"></a></li>
+        {{ end }}{{ if .Site.Data.homepage.social.bitcoin }}
+        <li><a href="{{ .Site.Data.homepage.social.bitcoin }}"> <img
+                    class="contain" src="https://cdn.svgporn.com/logos/bitcoin.svg" alt="Telegram" loading="lazy"></a></li>
+        {{ end }} {{ if .Site.Data.homepage.social.kofi }}
+        <li><a href="{{ .Site.Data.homepage.social.kofi }}"> <img
+                    class="contain" src="/logos/kofi_p_logo_nolabel.svg" alt="KoFi" loading="lazy"></a></li>
+        {{ end }} {{ if .Site.Data.homepage.social.paypal }}
+        <li><a href="{{ .Site.Data.homepage.social.paypal }}"> <img
+                    class="contain" src="https://cdn.svgporn.com/logos/paypal.svg" alt="Telegram" loading="lazy"></a></li>
+        {{ end }} {{ if .Site.Data.homepage.social.mercadopago }}
+        <li><a href="{{ .Site.Data.homepage.social.mercadopago }}"> <img
+                    class="contain" src="/logos/MercadoPago.svg" alt="Telegram" loading="lazy"></a></li>
         {{ end }}
-    </ul>
+        </ul>
 
 
 </div>
